@@ -1,0 +1,40 @@
+/* Pintalimpio Reservas — Admin CSS
+   Autor: Jhon Bastidas Rodrigues | controlhorariowp.com */
+
+.plr-admin h1 { display: flex; align-items: center; gap: 10px; }
+
+/* Stats bar */
+.plr-stats-bar { display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0 24px; }
+.plr-stat-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 20px; min-width: 110px; text-align: center; border-top: 3px solid #ccc; }
+.plr-stat-num   { display: block; font-size: 26px; font-weight: 700; color: #2d3748; }
+.plr-stat-label { display: block; font-size: 12px; color: #718096; text-transform: uppercase; letter-spacing: .5px; margin: 2px 0; }
+.plr-stat-suma  { display: block; font-size: 13px; color: #4a5568; font-weight: 600; }
+
+/* Filtros */
+.plr-filtros { display: flex; gap: 8px; align-items: center; margin-bottom: 16px; }
+.plr-filtros select, .plr-filtros input { padding: 6px 10px; border: 1px solid #e2e8f0; border-radius: 4px; }
+
+/* Tabla */
+.plr-tabla td { vertical-align: middle; }
+.plr-form-estado { display: flex; gap: 6px; align-items: center; }
+.plr-form-estado select { max-width: 140px; }
+.plr-vacio { color: #718096; font-style: italic; padding: 20px 0; }
+
+/* Badges de estado */
+.plr-badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: capitalize; }
+.plr-estado-pendiente  { background: #fef3c7; color: #92400e; }
+.plr-estado-reservado  { background: #d1fae5; color: #065f46; }
+.plr-estado-finalizado { background: #dbeafe; color: #1e40af; }
+.plr-estado-pagado     { background: #ede9fe; color: #5b21b6; }
+.plr-estado-cancelado  { background: #fee2e2; color: #991b1b; }
+
+/* Stat card border-top por estado */
+.plr-stat-card.plr-estado-pendiente  { border-top-color: #f59e0b; }
+.plr-stat-card.plr-estado-reservado  { border-top-color: #10b981; }
+.plr-stat-card.plr-estado-finalizado { border-top-color: #3b82f6; }
+.plr-stat-card.plr-estado-pagado     { border-top-color: #8b5cf6; }
+.plr-stat-card.plr-estado-cancelado  { border-top-color: #ef4444; }
+
+/* Config */
+.plr-config-seccion { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px; }
+.plr-config-seccion h2 { margin-top: 0; font-size: 16px; border-bottom: 1px solid #e2e8f0; padding-bottom: 12px; }

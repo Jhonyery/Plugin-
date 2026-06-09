@@ -1,0 +1,35 @@
+# Dependencias
+vendor/
+node_modules/
+
+# Build
+build/
+dist/
+*.zip
+
+# Logs y temporales
+*.log
+*.bak
+*.swp
+*.tmp
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.code-workspace
+
+# WordPress – datos sensibles que pudieran caer aquí por error
+*.sql
+*.sql.gz
+wp-config-local.php
+
+# Claves o credenciales
+.env
+.env.local
+secrets.json
